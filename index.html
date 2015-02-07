@@ -50,12 +50,12 @@
   
   for (i=0;i<Ctx.length;i++) {
 
-  $('p:eq('+i+') span:nth-child(5n)').delay(TypeDelay).animate({opacity:1});
+  $('p:eq('+i+') span:nth-child(5n)').delay(TypeDelay).animate({opacity:1},100);
   $('p:eq('+i+')').animate({color: '#ee3823'});
-  $('p:eq('+i+') span:nth-child(3n)').delay(TypeDelay+1500).animate({opacity:1});
-  $('p:eq('+i+') span:nth-child(3n+1)').delay(TypeDelay+3000).animate({opacity:1});
-  $('p:eq('+i+') span:nth-child(2n)').delay(TypeDelay+4500).animate({opacity:1});
-  $('p:eq('+i+') span:nth-child(2n+1)').delay(TypeDelay+5000).animate({opacity:1});
+  $('p:eq('+i+') span:nth-child(3n)').delay(TypeDelay+1500).animate({opacity:1},100);
+  $('p:eq('+i+') span:nth-child(3n+1)').delay(TypeDelay+3000).animate({opacity:1},100);
+  $('p:eq('+i+') span:nth-child(2n)').delay(TypeDelay+4500).animate({opacity:1},100);
+  $('p:eq('+i+') span:nth-child(2n+1)').delay(TypeDelay+5000).animate({opacity:1},100);
   $('p:eq('+i+')').delay(TypeDelay+5000).animate({color:'#ffffff'},0);
 
   TypeDelay=TypeDelay+5000;
