@@ -15,7 +15,7 @@
 
 html,body {
     height: 100%;
-    overflow: auto;
+    overflow:scroll;
 }
 
 
@@ -115,6 +115,7 @@ p { letter-spacing: 0.8rem;
 }
 
 #fadeintext {
+    overflow: auto;
     padding-left:5%;
     height:100%;
     background-color:rgba(0,0,0,0.9);
