@@ -31,7 +31,7 @@ html,body {
     p { 
 
     line-height: 100%;
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.4em;
 }
 
 }
@@ -45,7 +45,7 @@ html,body {
     p { 
 
     line-height: 100%;
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.4em;
 }
 
 }
@@ -59,8 +59,8 @@ html,body {
 
     p { 
 
-    line-height: 6.4rem;
-    margin-bottom: 2.4rem;
+    line-height: 6.4em;
+    margin-bottom: 2.4em;
 }
 
 }
@@ -74,8 +74,8 @@ html,body {
 
     p { 
 
-    line-height: 6.4rem;
-    margin-bottom: 2.4rem;
+    line-height: 6.4em;
+    margin-bottom: 2.4em;
 }
 
 }
@@ -87,12 +87,12 @@ html,body {
 
 .cont {
     position: relative;
-    top:16rem;
+    top:16em;
 }
 
-p { letter-spacing: 0.8rem;
+p { letter-spacing: 0.8em;
     font-family: "Bebas Neue";
-    font-size:4.8rem;
+    font-size:4.8em;
     color:#ee3823;
 }
 
@@ -104,10 +104,10 @@ p { letter-spacing: 0.8rem;
 
 .name {
     opacity: 0;
-    margin-top:2.4rem;
+    margin-top:2.4em;
     color:white;
     text-align: right;
-    margin-right:12rem;
+    margin-right:12em;
 }
 
 span {
