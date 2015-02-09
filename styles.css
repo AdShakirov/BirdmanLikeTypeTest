@@ -23,7 +23,7 @@ html,body {
 @media (max-width:800px) {
 
     .cont {
-     position: relative;
+    position: relative;
     top:12rem;
     }
 
